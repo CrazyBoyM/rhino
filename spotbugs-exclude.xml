@@ -2,9 +2,11 @@
 
 <FindBugsFilter>
   <Match>
+    <!-- Exclude tests -->
     <Class name="~org\.mozilla\.javascript\.tests.*"/>
   </Match>
   <Match>
+    <!-- Exclude generated benchmark code -->
     <Class name="~org\.mozilla\.javascript\.benchmarks\.generated.*"/>
   </Match>
   <Match>
